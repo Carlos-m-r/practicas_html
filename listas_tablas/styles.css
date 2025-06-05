@@ -1,0 +1,19 @@
+table,th,td {
+    width: 80%;
+    border: 1px;
+    color: black;
+    border-style: solid;
+    border-collapse: collapse;
+    margin: 1em auto; /* 1em  100% del tamaño de la fuente, el auto aplica el margen en todos lados */
+}
+
+
+th {
+    font-style: bold;
+    background-color: aqua;
+}
+
+td {
+    background-color: lightblue;
+}
+
