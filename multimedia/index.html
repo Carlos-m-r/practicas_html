@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Audios y videos</title>
+    </head>
+    <body>
+        <main>
+            <!--AUDIO-->
+            <div>
+                <div>
+                    <h1>Reproductor de audio Spotify</h1>
+                    <iframe
+                        style="border-radius: 12px"
+                        src="https://open.spotify.com/embed/track/3S4QedtP0f3HxMVRXHEqxv?utm_source=generator"
+                        width="500"
+                        height="100"
+                        frameborder="0"
+                        allowfullscreen
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
+                </div>
+
+                <div>
+                    <h1>Reproductor de audio con HTML5</h1>
+                    <audio controls>
+                        <source
+                            src="https://cdn.pixabay.com/audio/2025/02/02/audio_27625dd1bb.mp3"
+                            type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </div>
+                </div>
+                <!--VIDEO-->
+                <div style="display: flex;">
+
+                    <div
+                        style="display: flex; flex-direction: column; gap: 20px;">
+                        <h1>Reproductor Youtube</h1>
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/EsjMlBdKKlc?si=xAbC4lmyog-4aDXE"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div
+                        style="display: flex; flex-direction: column; margin-left: 100px;">
+                        <h1>Reproductor Standard</h1>
+                        <video width="320" height="240" controls>
+                            <source src="video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
